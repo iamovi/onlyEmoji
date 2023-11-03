@@ -2,7 +2,7 @@
 
 ## Preview
 <div align="center">
-  <img src="https://example.com/your-gif.gif" alt="preview GIF" width="300px">
+  <img src="https://github.com/iamovi/onlyEmoji/blob/main/preview.gif" alt="preview GIF" width="300px">
 </div>
 
 
