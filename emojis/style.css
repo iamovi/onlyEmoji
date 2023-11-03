@@ -9,7 +9,7 @@
 }
 /*rows is horizontal. columns is vertical*/
 .zone {
-    cursor:pointer;
+    cursor: grab;
     /* display:block; */
     text-align: center;
     font-size:10em;
@@ -26,7 +26,6 @@
 }
 
 
-/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
  *  Green Background
  **********************************************************************/
@@ -104,4 +103,23 @@
     background: -ms-linear-gradient(top, #f6e6b4 0%,#ed9017 100%); /* IE10+ */
     background: linear-gradient(top, #f6e6b4 0%,#ed9017 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
+}
+
+/*----------------------------xxx------------------------------*/
+.emoji-container {
+    margin: 0 auto;
+    border: 0.5px solid black;
+    padding: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.emoji-container:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: -webkit-transform 0.3s ease, -ms-transform 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
+    cursor: grab;
 }

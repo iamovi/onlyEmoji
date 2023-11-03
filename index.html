@@ -1,25 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" >  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grid Master</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Poems</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-      <div class="zone green">🦊</div>
-      <div class="zone red">🐰</div>
-      <div class="zone blue">🐸</div>
-      <div class="zone yellow">🦁</div>
-      <div class="zone purple">🐯</div>
-      <div class="zone brown">🐭</div>
-      <div class="zone green">🦄</div>
-      <div class="zone red">🐲</div>
-      <div class="zone blue">🐷</div>
-      <div class="zone yellow">🐺</div>
-      <div class="zone purple">🐼</div>
-      <div class="zone brown">🐻</div>
-  </div>
+    <div class="emoji-list">
+        <div class="emoji-container" data-emoji="🌼">🌼</div>
+        <div class="emoji-container" data-emoji="🌈">🌈</div>
+        <div class="emoji-container" data-emoji="🌟">🌟</div>
+        <div class="emoji-container" data-emoji="🐦">🐦</div>
+        <div class="emoji-container" data-emoji="🍕">🍕</div>
+        <div class="emoji-container" data-emoji="🌸">🌸</div>
+        <div class="emoji-container" data-emoji="🌞">🌞</div>
+        <div class="emoji-container" data-emoji="🌍">🌍</div>
+        <div class="emoji-container" data-emoji="🌷">🌷</div>
+        <div class="emoji-container" data-emoji="🚀">🚀</div>
+        <div class="emoji-container" data-emoji="🌱">🌱</div>
+        <div class="emoji-container" data-emoji="🌾">🌾</div>
+        <div class="emoji-container" data-emoji="🌋">🌋</div>
+        <div class="emoji-container" data-emoji="🌅">🌅</div>
+        <div class="emoji-container" data-emoji="🍦">🍦</div>
+        <div class="emoji-container" data-emoji="🌵">🌵</div>
+        <div class="emoji-container" data-emoji="🌉">🌉</div>
+       <div class="emoji-container" data-emoji="🍪">🍪</div>
+       <div class="emoji-container" data-emoji="🌧">🌧</div>
+       <br>
+       <button class="emoji-container" onclick="window.location.href = './emojis/emojis.html';">(⁠⊙⁠_⁠◎⁠)</button>
+    </div>
+    <div class="poem-container">
+        <p id="poem"></p>
+        <button id="back-button" style="display: none">┐⁠(⁠￣⁠ヘ⁠￣⁠)⁠┌</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
